@@ -1,0 +1,5 @@
+chmod 0777 var
+chmod 0777 -R media
+chmod 0777 app/etc
+chmod 0777 -R var/package
+chmod 0777 var/connect
