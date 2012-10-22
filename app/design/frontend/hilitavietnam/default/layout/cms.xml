@@ -63,14 +63,50 @@ Default layout, loads most of the pages
 			</action>
 			
 			<action method="addLink" translate="label title">
-				<label>Sản phẩm thương hiệu</label>
-				<url>san-pham-thuong-hieu</url>
-				<title>Sản phẩm thương hiệu</title>
+				<label>Vòng bi SKF</label>
+				<url>vong-bi-skf.html</url>
+				<title>Vòng bi SKF</title>
 				<prepare>true</prepare>
 				<urlParams helper="core/url/getHomeUrl"/>
 				<position>1</position>
                 <liParams/>
-                <aParams>class="san-pham-thuong-hieu"</aParams>
+                <aParams>class="vong-bi-skf"</aParams>
+                <beforeText></beforeText>
+                <afterText></afterText>
+			</action>
+			<action method="addLink" translate="label title">
+				<label>Vòng bi FAG</label>
+				<url>vong-bi-fag.html</url>
+				<title>Vòng bi FAG</title>
+				<prepare>true</prepare>
+				<urlParams helper="core/url/getHomeUrl"/>
+				<position>1</position>
+                <liParams/>
+                <aParams>class="vong-bi-skf"</aParams>
+                <beforeText></beforeText>
+                <afterText></afterText>
+			</action>
+			<action method="addLink" translate="label title">
+				<label>Vòng bi TIMKEN</label>
+				<url>vong-bi-timken.html</url>
+				<title>Vòng bi TIMKEN</title>
+				<prepare>true</prepare>
+				<urlParams helper="core/url/getHomeUrl"/>
+				<position>1</position>
+                <liParams/>
+                <aParams>class="vong-bi-skf"</aParams>
+                <beforeText></beforeText>
+                <afterText></afterText>
+			</action>
+			<action method="addLink" translate="label title">
+				<label>Vòng bi NSK</label>
+				<url>vong-bi-nsk.html</url>
+				<title>Vòng bi NSK</title>
+				<prepare>true</prepare>
+				<urlParams helper="core/url/getHomeUrl"/>
+				<position>1</position>
+                <liParams/>
+                <aParams>class="vong-bi-skf"</aParams>
                 <beforeText></beforeText>
                 <afterText></afterText>
 			</action>

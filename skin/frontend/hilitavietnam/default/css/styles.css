@@ -2023,8 +2023,8 @@ li{
 }
 
 .form-search input{
-	background: url("../images/search-icon.png") no-repeat scroll 170px 2px #4F4F4F;
-    color: #FFFFFF;
+	background: url("../images/search-icon.png") no-repeat scroll 170px 2px #4F4F4F !important;
+    color: #FFF;
     height: 15px;
     width: 183px;
 }
@@ -2067,7 +2067,7 @@ p.category-image{
 
 #contactForm .form-list .field {width:352px!important}
 
-.form-search input:focus {color:#333!important}
+.form-search input:focus {color:#fff}
 
 #bearings-by-brand li {display:inline;float:left;margin-right:28px}
 
@@ -2076,7 +2076,8 @@ p.category-image{
     font-size: 15px;
     font-weight: bold;
 
-    padding: 0 0 1px;}
+    padding: 0 0 1px;
+}
     
 #block-related .product-name {padding-left:0}
 
@@ -2087,3 +2088,15 @@ p.category-image{
     width: 237px;}
     
 .page-sitemap.boxstyle p {padding-left:0}
+
+.box-description td{
+	border-left: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	padding: 5px;
+}
+
+.box-description table{
+	border-top: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+	
+}
