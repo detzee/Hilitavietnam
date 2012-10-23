@@ -148,7 +148,7 @@ input.checkbox { margin-right:3px; }
 input.qty { width:2.5em !important; }
 button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
 button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
-button.button { width:auto;border-radius: 6px; border: none;box-shadow: 2px 2px 2px #666;cursor: pointer;}
+button.button { width:auto;border-radius: 6px; border: none;box-shadow: 3px 3px 4px #666;cursor: pointer;}
 button.button span { display:block; height:19px; border:1px solid #fff;background: url(../images/title-bg.png) repeat-x; padding:5px 20px; font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; white-space:nowrap; color:#fff; border-radius: 6px;}
 button.button span span { border:0; padding:0; }
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
@@ -1799,7 +1799,7 @@ tr.summary-details-excluded { font-style:italic; }
 	border: 1px solid #ebeef0;
 	background: #fff;
 	border-radius: 5px;
-	box-shadow: 2px 2px 2px 2px #ccc;
+	box-shadow: 1px 3px 4px 3px #ccc;
 	overflow: hidden;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
@@ -1882,11 +1882,33 @@ a{
 	padding: 5px 0;
 }
 
-.supportSidebar ul li.phone a{
-	background: url("../images/phone-icon.png") no-repeat scroll 10px -11px transparent;
+.supportSidebar span{
+	font-size: 17px;
+	color: #333;
+	font-weight: bold;
+	
+}
+
+.supportSidebar ul li.yahoo a img{
+	height: 34px;
+}
+
+.supportSidebar ul li.phone span{
+	background: url("../images/phone-icon.png") no-repeat scroll 15px 0 transparent;
     display: block;
-    height: 50px;
-    padding-left: 30px;
+    height: 30px;
+    padding-left: 20px;
+	line-height: 30px;
+	
+}
+
+
+.supportSidebar ul li.cellphone span{
+	background: url("../images/cell-phone-icon.png") no-repeat scroll 10px 0 transparent;
+    display: block;
+    height: 30px;
+    padding-left: 5px;
+	line-height: 30px;
 }
 
 .partner{
@@ -2014,7 +2036,7 @@ li{
 }
 
 .form-search{
-	 background: url("../images/search-bg.png") repeat-x scroll 0 0 transparent;
+	background: url("../images/search-bg.png") repeat-x scroll 0 0 transparent;
     border-radius: 5px 5px 5px 5px;
     color: #FFFFFF;
     padding: 7px 5px;
@@ -2099,4 +2121,14 @@ p.category-image{
 	border-top: 1px solid #d4d4d4;
 	border-right: 1px solid #d4d4d4;
 	
+}
+
+.partner ul li{
+	padding: 5px 0;
+}
+
+.gallery-content ul li{
+	float: left;
+	display: inline;
+	padding: 10px;
 }

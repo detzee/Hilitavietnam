@@ -112,6 +112,19 @@ Default layout, loads most of the pages
 			</action>
 			
 			<action method="addLink" translate="label title">
+				<label>Hình ảnh kho hàng</label>
+				<url>hinh-anh-kho-hang</url>
+				<title>Hình ảnh kho hàng</title>
+				<prepare>true</prepare>
+				<urlParams helper="core/url/getHomeUrl"/>
+				<position>1</position>
+                <liParams/>
+                <aParams>class="hinh-anh-kho-hang"</aParams>
+                <beforeText></beforeText>
+                <afterText></afterText>
+			</action>
+			
+			<action method="addLink" translate="label title">
 				<label>Liên hệ</label>
 				<url>contacts</url>
 				<title>Liên hệ</title>
