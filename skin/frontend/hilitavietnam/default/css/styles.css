@@ -2132,3 +2132,9 @@ p.category-image{
 	display: inline;
 	padding: 10px;
 }
+
+#seeMore a{
+color: #3B5998;
+font-size: 13px;
+text-transform: uppercase;
+}
