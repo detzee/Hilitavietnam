@@ -518,6 +518,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header-container {background:url(../images/header-bg.png) no-repeat #fff; height: 420px; }
 .header {margin:0 auto; padding:10px; text-align:right; position:relative; z-index:10; }
 .header .logo { float:left; text-decoration:none !important;position: relative;top: 6px;left: 5px; }
+.header > a.logo {top:12px;left:10px}
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
 .header h1.logo { margin:0; }
 .header .quick-access { float:right; width:600px; padding:28px 10px 0 0; }
@@ -1999,7 +2000,7 @@ li{
 }
 
 .footer .truSo{
-	width: 350px;
+	height: 120px;
 	padding-left: 50px;
 	padding-top: 15px;
 	overflow: hidden;
@@ -2132,3 +2133,11 @@ p.category-image{
 	display: inline;
 	padding: 10px;
 }
+
+#seeMore a{
+color: #3B5998;
+font-size: 13px;
+text-transform: uppercase;
+}
+
+/* 
