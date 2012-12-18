@@ -33,16 +33,21 @@
 <?php $_links = $this->getLinks(); ?>
 <?php if(count($_links)>0): ?>
 <ul class="links"<?php if($this->getName()): ?> id="<?php echo $this->getName() ?>"<?php endif;?>>
-    <?php foreach($_links as $_link): ?>
-   
+    
+	<?php foreach($_links as $_link): ?>
+   		
     	<?php $active = $_link->getUrl() == $this->helper('core/url')->getCurrentUrl()?"active":""?>
-
-        <?php if ($_link instanceof Mage_Core_Block_Abstract):?>
+			
+        <?php /**if ($_link instanceof Mage_Core_Block_Abstract):?>
             <?php echo $_link->toHtml() ?>
-        <?php else: ?>        	
+        <?php else: **/?>        	
             <li class="<?php if($_link->getIsFirst()): ?>first <?php endif; ?><?php if($_link->getIsLast()): ?> last <?php endif; ?><?php echo $active?>" <?php echo $_link->getLiParams() ?>><?php echo $_link->getBeforeText() ?><a href="<?php echo $_link->getUrl() ?>" title="<?php echo $_link->getTitle() ?>" <?php echo $_link->getAParams() ?>><?php echo $_link->getLabel() ?></a><?php echo $_link->getAfterText() ?></li>
-        <?php endif;?>
+        <?php //endif;?>
     <?php endforeach; ?>
+    <li>
+    	<a href="#">Sản phẩm thương hiệu</a>
+    	<?php echo $this->getLayout()->createBlock('catalog/navigation')->setTemplate('catalog/navigation/child.phtml')->toHtml()?>
+    </li>
 </ul>
 <?php endif; ?>
 
